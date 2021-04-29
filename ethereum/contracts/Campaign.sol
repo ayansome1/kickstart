@@ -26,7 +26,7 @@ contract Campaign {
     // Reference1: https://docs.soliditylang.org/en/v0.7.0/types.html?highlight=struct#structs 
     // Reference2: https://ethereum.stackexchange.com/questions/87451/solidity-error-struct-containing-a-nested-mapping-cannot-be-constructed/97883#97883
     
-    uint numRequests;
+    uint public numRequests;
     mapping (uint => Request) public requests;
     
     address public manager;
